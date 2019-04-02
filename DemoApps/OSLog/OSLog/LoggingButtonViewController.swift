@@ -38,6 +38,7 @@ class LoggingButtonViewController: UIViewController {
         UIView.animate(withDuration: TimeInterval.init(exactly: 1/3)!) {
             self.updateUI()
         }
+        os_log(OSLogType.debug, log: LoggingButtonViewController.log, "%@", Thread.callStackSymbols.joined(separator: "\n"))
     }
 
     /*

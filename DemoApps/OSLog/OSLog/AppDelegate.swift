@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func startLoggingStuff() {
-        os_log(OSLogType.error, log: AppDelegate.log, "%@: %@", "My ninja stealth wore off 🦑", Date().description)
+        os_log(OSLogType.error, log: AppDelegate.log, "%@: %@", "Myr ninja stealth wore off 🦑", Date().description)
         DispatchQueue.global(qos: DispatchQoS.QoSClass.utility).asyncAfter(deadline: .now() + 10.0 , execute: {
             self.startLoggingStuff()
         })

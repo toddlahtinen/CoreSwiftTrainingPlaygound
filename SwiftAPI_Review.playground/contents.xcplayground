@@ -4,5 +4,8 @@
         <page name='Array_Reduce'/>
         <page name='Array_Map'/>
         <page name='Sort'/>
+        <page name='JSON'/>
+        <page name='NumberHandler'/>
+        <page name='Range_operator'/>
     </pages>
 </playground>
